@@ -1,0 +1,17 @@
+# build outputs
+build/
+*.apk
+*.idsig
+*.dex
+*.class
+
+# local signing key (build.sh creates one per machine)
+*.keystore
+*.jks
+
+# editor / OS clutter
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
